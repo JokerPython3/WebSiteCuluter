@@ -1,0 +1,47 @@
+#cul{
+  display: flex;
+  flex-direction: column;
+  background-color: royalblue;
+  width: fit-content;
+  padding: 20px;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+#dis_ar{
+  background-color: rgb(218,221,223);
+  height: 70px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.cul_row{
+  margin: 5px auto;
+}
+.cul_row button{
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: red;
+  color: #ffff;
+}
+.cul_row button:hover{
+  background-color: red;
+  cursor: pointer;
+}
+#dis_ar {
+  background-color: rgb(218,221,223);
+  height: 70px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 32px;
+  text-align: right;
+  line-height: 1.2; 
+  overflow-x: auto;
+}
